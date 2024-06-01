@@ -1,0 +1,71 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    height: 100%; /* Ensures body takes up full viewport height */
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+caption {
+    caption-side: top;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+table th, table td {
+    padding: 12px 15px;
+    border: 1px solid #dddddd;
+}
+
+table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+h1 {
+    position: absolute; /* Set position to absolute */
+    bottom: 0; /* Align to the bottom */
+    right: 0; /* Align to the right */
+    margin: 0;
+    padding: 10px;
+    background-color: #009879;
+    color: #ffffff;
+    border-top-left-radius: 8px; /* Rounded corners for style */
+}
